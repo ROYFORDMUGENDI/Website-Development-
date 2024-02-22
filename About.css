@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: darkblue;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-betweens;
+    align-items: center;
+
+}
+
+.menu{
+    text-align: right;
+    flex: 1;
+    }
+
+    .menu ul li {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 20px;
+        
+    }
+
+    .menu  a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        padding: 20px;
+       
+    }
+
+    .bt{
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+
+    .bt1{
+        flex-basis: 50%;
+        background-color: orange;
+        align-items: center;
+        height: 50vh;
+
+        h4{
+            margin-top: 40px;
+            color: white;
+            font-size: 60px;
+
+        }
+
+        p{
+            color: azure;
+            text-align: justify;
+            padding: 20px;
+            line-height: normal;
+        }
+    }
+
+    .bt2{
+        flex-basis: 50%;
+        background-image: url(images/tech.avif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-content: center;
+        height: 50vh;
+    }
+
+    .mot{
+        width: 100%;
+        background-color: rgb(0, 92, 62);
+        text-align: center;
+        height: 30vh;
+        display: flex;
+        
+    }
+
+    .mot1{
+        text-align: center;
+        padding: 20px;
+
+        h3{
+            margin-bottom: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+        }
+
+        p{
+            color: whitesmoke;
+            text-align: justify;
+        }
+        
+            }
+
+    .lern{
+        background-color: orange;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .lern:hover{
+        background-color: darkgray;
+        color: orangered;
+    }

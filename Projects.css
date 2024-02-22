@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: darkblue;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-betweens;
+    align-items: center;
+
+}
+
+.menu{
+    text-align: right;
+    flex: 1;
+    }
+
+    .menu ul li {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 20px;
+        
+    }
+
+    .menu  a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        padding: 20px;
+       
+    }
+
+    .pro{
+        background-image: url(images/background.avif);
+        height: 30vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+        background-attachment: scroll;
+    }
+
+    .pro1{
+        text-align: center;
+        color: white;
+        padding: 50px;
+
+        h3{
+            font-size: 50px;
+        }
+    }
+
+
+    .nia{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .web{
+        flex-basis: 40%;
+        background-color: rgb(0, 75, 50);
+        border-radius: 20px;
+        border-color: orangered;
+        height: 200px;
+        color: white;
+        padding: 20px;
+
+        h4{
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+    }
+
+    .web  a{
+        align-content: center;
+        color: white;
+        text-decoration: none;
+        
+        
+    }
+
+    .web ul{
+        text-align: left;
+       
+        list-style: none;
+        text-decoration: none;
+        
+    }
+
+   
+
+    .co{
+        flex-basis: 40%;
+        background-color: rgb(0, 75, 50);
+        border-radius: 20px;
+        border-color: orangered;
+        height: 200px;
+        color: white;
+        padding: 20px;
+
+        h4{
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+    }
+
+    .co a{
+        align-content: center;
+        color: white;
+        text-decoration: none;
+        
+        
+    }
+
+    .co ul{
+        text-align: left;
+       
+        list-style: none;
+        text-decoration: none;
+        
+    }
